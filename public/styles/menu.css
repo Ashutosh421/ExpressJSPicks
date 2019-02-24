@@ -1,0 +1,77 @@
+.user {
+    background-color: black;
+    color: white;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: #72729e;
+    display: grid;
+    grid-template-columns: 70% 20%;
+    grid-column-gap: 10%;
+}
+
+header > h1 {
+    color: #fafaec;
+    font-family: monospace;
+    font-size: 54px;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px;
+}
+
+body {
+    background-color: #f5f6f7;
+}
+
+.icon-sm-40 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.icon-sm-40 > svg {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.icon-sm-40:hover {
+    cursor: pointer;
+}
+
+.icon-sm-40:hover > svg > path {
+    fill: white;
+}
+
+.menuBar { 
+    list-style: none;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.menuBar > li {
+    flex-grow: 1;
+    text-align: center;
+    color: #72729e;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.2s all;
+}
+
+.menuBar > li > a {
+    text-decoration: none;
+}
+
+.menuBar > li:hover {
+    background-color: #a7a7df;
+    color: #f2f2f2;
+    cursor: pointer;
+}

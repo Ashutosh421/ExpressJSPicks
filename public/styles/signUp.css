@@ -1,0 +1,81 @@
+.signUpBox {
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    background-color: #72729e3b;
+    border: 2px solid #72729e;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.signUpBox > .signUpHeading {
+    min-height: 42px;
+    background-color: #72729e;
+    border-radius: 19px 19px 0px 0px;
+}
+
+.signUpBox > .signUpHeading > span {
+    color: #fafaec;
+    font-family: monospace;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    display: block;
+}
+
+.signUpForm {
+    padding-top: 50px;
+}
+
+.signUpForm > .signUpForm-block > label {
+    padding: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #606060;
+    text-align: right;
+}
+
+.signUpForm > .signUpForm-block > input[type = "text"] {
+    padding: 9px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #606060;
+    background-color: #9e9eb5;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.signUpForm > .signUpForm-block {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-left: 29px;
+    padding-right: 68px;
+    margin-top: 10px;
+}
+
+.signUpForm > .signUpForm-block > input[type = "button"] {
+    position: absolute;
+    left: 50%;
+    margin-top: 75px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #606060;
+    background-color: #9e9eb5;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#formError {
+    padding: 10px;
+    font-size: 18px;
+    color: #ee2b2b;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.hidden {  
+    display: none;
+}

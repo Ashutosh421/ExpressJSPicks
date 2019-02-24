@@ -1,0 +1,19 @@
+.usersBlock {
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.usersBlock > .userSC {
+    padding: 20px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.usersBlock > .userSC > span {
+    display: block;
+}
+
+.addUser {
+    margin-top: 50px;
+}
